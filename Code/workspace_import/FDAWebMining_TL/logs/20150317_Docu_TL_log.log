@@ -1,0 +1,498 @@
+2015.03.17 01:43:05 - DEBUG [com.documentum.fc.client.DfSessionManager]: get manual session for "epictest" docbase.
+2015.03.17 01:43:05 - DEBUG [com.documentum.fc.client.DfSessionManager]: return session docbase=epictest, refCounter=1, transFlag=false  Session =com.documentum.fc.client.DfSession@8ed465, thread data com.documentum.fc.client.DfServiceThreadHelper@11a698a
+2015.03.17 01:43:05 -  WARN [com.cms.docu.collect.CollectDMS]: NO DOCUMENTS found under /Users/FDA at Docbase
+2015.03.17 01:43:05 -  INFO [com.cms.docu.collect.CollectFS]: No. of Documents in File List at File System: 4
+2015.03.17 01:43:05 - DEBUG [com.cms.docu.collect.CollectFS]:  -1- UCM456A Doc-2.pdf
+2015.03.17 01:43:05 - DEBUG [com.cms.docu.collect.CollectFS]:  -2- UCM789B Doc-3.zip
+2015.03.17 01:43:05 - DEBUG [com.cms.docu.collect.CollectFS]:  -3- UCM113 Doc-6.pdf
+2015.03.17 01:43:05 - DEBUG [com.cms.docu.collect.CollectFS]:  -4- UCM114 Doc-7.zip
+2015.03.17 01:43:05 -  INFO [com.cms.docu.compare.Compare]: Compare begins..
+2015.03.17 01:43:05 -  WARN [com.cms.docu.compare.Compare]: C:\FDA\files\Scenario-2\Doc-7.zip does NOT EXIST!
+2015.03.17 01:43:05 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM113 Doc-6.pdf
+2015.03.17 01:43:05 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM456A Doc-2.pdf
+2015.03.17 01:43:05 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM789B Doc-3.zip
+2015.03.17 01:43:07 -  INFO [com.documentum.fc.bof.cache.DfClassCacheManager$CacheCleanupTask]: [DFC_BOF_RUNNING_CLEANUP] Running class cache cleanup task
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfFileStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfLinkStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDistributedStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfBlobStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfLocation not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfPlugin not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfCAStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternFileStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternFreeStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternUrlStorage not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMountPoint not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfJob not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDocbaseConfig not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDomainMap not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfServerConfig not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMethod not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfFederation not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMigrateRule not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfWebCacheConfig not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfWebCacheTarget not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfIWSDocbaseConfig not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfIWSServerConfig not found.
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_sysobject does not exist in docbase: epictest
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfSysObject for: dm_sysobject object type for docbase: epictest
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObject
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfPersistentObject
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypedObject
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObjectInternal
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfPersistentObjectInternal
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypedObjectInternal
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObjectRetention
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass java.lang.Cloneable
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.util.reflection.proxy.BaseDoubleProxy
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass java.lang.Object
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypeInternal
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_format does not exist in docbase: epictest
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfFormat for: dm_format object type for docbase: epictest
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:07 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_document does not exist in docbase: epictest
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfDocument for: dm_document object type for docbase: epictest
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfDocument
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_folder does not exist in docbase: epictest
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfFolder for: dm_folder object type for docbase: epictest
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFolder
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFolderInternal
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFolder
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_docbase_config does not exist in docbase: epictest
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfSysObject for: dm_docbase_config object type for docbase: epictest
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfSysObject___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass sun.reflect.ConstructorAccessorImpl
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfSysObject___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:43:08 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:43:09 -  INFO [com.cms.docu.load.Import]: Doc-6.pdf UCM113 has been IMPORTED successfully
+2015.03.17 01:43:09 -  INFO [com.cms.docu.load.Import]: Doc-2.pdf UCM456A has been IMPORTED successfully
+2015.03.17 01:43:09 -  INFO [com.cms.docu.load.Import]: Doc-3.zip UCM789B has been IMPORTED successfully
+2015.03.17 01:43:09 -  INFO [com.cms.docu.init.MainTL]: --COMPLETED--
+2015.03.17 01:51:31 - DEBUG [com.documentum.fc.client.DfSessionManager]: get manual session for "epictest" docbase.
+2015.03.17 01:51:31 - DEBUG [com.documentum.fc.client.DfSessionManager]: return session docbase=epictest, refCounter=1, transFlag=false  Session =com.documentum.fc.client.DfSession@8ed465, thread data com.documentum.fc.client.DfServiceThreadHelper@11a698a
+2015.03.17 01:51:31 -  WARN [com.cms.docu.collect.CollectDMS]: NO DOCUMENTS found under /Users/FDA at Docbase
+2015.03.17 01:51:31 -  INFO [com.cms.docu.collect.CollectFS]: No. of Documents in File List at File System: 4
+2015.03.17 01:51:31 - DEBUG [com.cms.docu.collect.CollectFS]:  -1- UCM123 Doc-1.pdf
+2015.03.17 01:51:31 - DEBUG [com.cms.docu.collect.CollectFS]:  -2- UCM456 Doc-2.pdf
+2015.03.17 01:51:31 - DEBUG [com.cms.docu.collect.CollectFS]:  -3- UCM789 Doc-3.zip
+2015.03.17 01:51:31 - DEBUG [com.cms.docu.collect.CollectFS]:  -4- UCM112 Doc-5.pdf
+2015.03.17 01:51:31 -  INFO [com.cms.docu.compare.Compare]: Compare begins..
+2015.03.17 01:51:31 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM456 Doc-2.pdf
+2015.03.17 01:51:31 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM123 Doc-1.pdf
+2015.03.17 01:51:31 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM789 Doc-3.zip
+2015.03.17 01:51:31 -  WARN [com.cms.docu.compare.Compare]: C:\FDA\files\Scenario-1\Doc-5.pdf does NOT EXIST!
+2015.03.17 01:51:32 -  INFO [com.documentum.fc.bof.cache.DfClassCacheManager$CacheCleanupTask]: [DFC_BOF_RUNNING_CLEANUP] Running class cache cleanup task
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfFileStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfLinkStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDistributedStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfBlobStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfLocation not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfPlugin not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfCAStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternFileStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternFreeStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternUrlStorage not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMountPoint not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfJob not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDocbaseConfig not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDomainMap not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfServerConfig not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMethod not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfFederation not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMigrateRule not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfWebCacheConfig not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfWebCacheTarget not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfIWSDocbaseConfig not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfIWSServerConfig not found.
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_sysobject does not exist in docbase: epictest
+2015.03.17 01:51:32 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfSysObject for: dm_sysobject object type for docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObject
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfPersistentObject
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypedObject
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObjectInternal
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfPersistentObjectInternal
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypedObjectInternal
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObjectRetention
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass java.lang.Cloneable
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.util.reflection.proxy.BaseDoubleProxy
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass java.lang.Object
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypeInternal
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_format does not exist in docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfFormat for: dm_format object type for docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_document does not exist in docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfDocument for: dm_document object type for docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfDocument
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_folder does not exist in docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfFolder for: dm_folder object type for docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFolder
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFolderInternal
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFolder
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_docbase_config does not exist in docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfSysObject for: dm_docbase_config object type for docbase: epictest
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfSysObject___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass sun.reflect.ConstructorAccessorImpl
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfSysObject___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:33 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:51:34 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:51:34 -  INFO [com.cms.docu.load.Import]: Doc-1.pdf UCM123 has been IMPORTED successfully
+2015.03.17 01:51:34 -  INFO [com.cms.docu.load.Import]: Doc-2.pdf UCM456 has been IMPORTED successfully
+2015.03.17 01:51:34 -  INFO [com.cms.docu.load.Import]: Doc-3.zip UCM789 has been IMPORTED successfully
+2015.03.17 01:51:34 -  INFO [com.cms.docu.init.MainTL]: --COMPLETED--
+2015.03.17 01:52:48 - DEBUG [com.documentum.fc.client.DfSessionManager]: get manual session for "epictest" docbase.
+2015.03.17 01:52:48 - DEBUG [com.documentum.fc.client.DfSessionManager]: return session docbase=epictest, refCounter=1, transFlag=false  Session =com.documentum.fc.client.DfSession@8ed465, thread data com.documentum.fc.client.DfServiceThreadHelper@11a698a
+2015.03.17 01:52:48 -  INFO [com.cms.docu.collect.CollectDMS]: No. of Documents in Docbase: 3
+2015.03.17 01:52:49 -  INFO [com.documentum.fc.bof.cache.DfClassCacheManager$CacheCleanupTask]: [DFC_BOF_RUNNING_CLEANUP] Running class cache cleanup task
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfFileStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfLinkStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDistributedStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfBlobStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfLocation not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfPlugin not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfCAStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternFileStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternFreeStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfExternUrlStorage not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMountPoint not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfJob not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDocbaseConfig not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfDomainMap not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfServerConfig not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMethod not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfFederation not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfMigrateRule not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfWebCacheConfig not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfWebCacheTarget not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfIWSDocbaseConfig not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: [DFC_BOF_OPTIONAL_CLASS_NOT_FOUND] Optional class com.documentum.admin.object.DfIWSServerConfig not found.
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_sysobject does not exist in docbase: epictest
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfSysObject for: dm_sysobject object type for docbase: epictest
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObject
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfPersistentObject
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypedObject
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObjectInternal
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfPersistentObjectInternal
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypedObjectInternal
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfSysObjectRetention
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass java.lang.Cloneable
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.util.reflection.proxy.BaseDoubleProxy
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass java.lang.Object
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_document does not exist in docbase: epictest
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfDocument for: dm_document object type for docbase: epictest
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfDocument
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectDMS]:  -1- 09009c54803dd99a Doc-1.pdf UCM123
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectDMS]:  -2- 09009c54803dd99b Doc-2.pdf UCM456
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:52:49 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectDMS]:  -3- 09009c54803dd99c Doc-3.zip UCM789
+2015.03.17 01:52:49 -  INFO [com.cms.docu.collect.CollectFS]: No. of Documents in File List at File System: 4
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectFS]:  -1- UCM456A Doc-2.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectFS]:  -2- UCM789B Doc-3.zip
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectFS]:  -3- UCM113 Doc-6.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.collect.CollectFS]:  -4- UCM114 Doc-7.zip
+2015.03.17 01:52:49 -  INFO [com.cms.docu.compare.Compare]: Compare begins..
+2015.03.17 01:52:49 -  WARN [com.cms.docu.compare.Compare]: C:\FDA\files\Scenario-2\Doc-7.zip does NOT EXIST!
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-6.pdf DMS::Doc-1.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-6.pdf DMS::Doc-2.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-6.pdf DMS::Doc-3.zip
+2015.03.17 01:52:49 -  INFO [com.cms.docu.compare.Compare]: Compare NOT MATCH: UCM113 Doc-6.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-2.pdf DMS::Doc-1.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-2.pdf DMS::Doc-2.pdf
+2015.03.17 01:52:49 -  INFO [com.cms.docu.compare.Compare]: Compare MATCH: 09009c54803dd99b Doc-2.pdf $ UCM456A
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: Entry 09009c54803dd99b Doc-2.pdf has been removed from DMS hashmap to avoid duplicate compare
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-3.zip DMS::Doc-1.pdf
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: FS::Doc-3.zip DMS::Doc-3.zip
+2015.03.17 01:52:49 -  INFO [com.cms.docu.compare.Compare]: Compare MATCH: 09009c54803dd99c Doc-3.zip $ UCM789B
+2015.03.17 01:52:49 - DEBUG [com.cms.docu.compare.Compare]: Entry 09009c54803dd99c Doc-3.zip has been removed from DMS hashmap to avoid duplicate compare
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfTypeInternal
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_format does not exist in docbase: epictest
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfFormat for: dm_format object type for docbase: epictest
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_folder does not exist in docbase: epictest
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfFolder for: dm_folder object type for docbase: epictest
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFolder
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFolderInternal
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.IDfFolder
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.bof.registry.DfLocalModuleRegistry]: [DFC_BOF_CANNOT_FIND_OBJECT] Business object dm_docbase_config does not exist in docbase: epictest
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.bof.compoundclass.CompoundClassMgr]: Loading class: com.documentum.fc.client.DfSysObject for: dm_docbase_config object type for docbase: epictest
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfSysObject___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfFormat
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfFormat___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfSysObject
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfSysObject___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 -  INFO [com.cms.docu.load.Import]: Doc-6.pdf UCM113 has been IMPORTED successfully
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 -  INFO [com.cms.docu.load.Checkin]: Doc-2.pdf UCM456A has been CHECKIN successfully
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfDocument
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfDocument___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadProxyClass com.documentum.fc.client.DfType
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass com.documentum.fc.client.DfType___PROXY
+2015.03.17 01:52:50 - DEBUG [com.documentum.fc.util.reflection.proxy.ProxyClassLoader]: loadClass sun.reflect.ConstructorAccessorImpl
+2015.03.17 01:52:51 -  INFO [com.cms.docu.load.Checkin]: Doc-3.zip UCM789B has been CHECKIN successfully
+2015.03.17 01:52:51 -  INFO [com.cms.docu.init.MainTL]: --COMPLETED--

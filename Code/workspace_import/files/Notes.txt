@@ -1,0 +1,28 @@
+Scenario - 1
+FS:
+Doc-1.pdf I
+Doc-2.pdf I
+Doc-3.zip I
+Doc-4.pdf *
+
+List:
+UCM123,Doc-1.pdf I
+UCM456,Doc-2.pdf I
+UCM789,Doc-3.zip I
+UCM112,Doc-5.pdf W
+
+Scenario - 2
+FS:
+Doc-2.pdf C
+Doc-3.zip C
+Doc-6.pdf I
+Doc-7.pdf W
+
+List:
+UCM456A,Doc-2.pdf C
+UCM789B,Doc-3.zip C
+UCM113,Doc-6.pdf I
+UCM114,Doc-7.zip W
+
+
+*Doc-4 will be not be witnessed any where. 

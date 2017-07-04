@@ -1,0 +1,267 @@
+package ImportDoc;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import com.documentum.com.DfClientX;
+import com.documentum.com.IDfClientX;
+import com.documentum.fc.client.DfQuery;
+import com.documentum.fc.client.IDfClient;
+import com.documentum.fc.client.IDfCollection;
+import com.documentum.fc.client.IDfDocument;
+import com.documentum.fc.client.IDfQuery;
+import com.documentum.fc.client.IDfSession;
+import com.documentum.fc.client.IDfSessionManager;
+import com.documentum.fc.client.IDfSysObject;
+import com.documentum.fc.client.IDfVersionPolicy;
+import com.documentum.fc.common.DfException;
+import com.documentum.fc.common.DfId;
+import com.documentum.fc.common.IDfId;
+import com.documentum.fc.common.IDfList;
+import com.documentum.fc.common.IDfLoginInfo;
+import com.documentum.operations.IDfFile;
+import com.documentum.operations.IDfImportNode;
+import com.documentum.operations.IDfImportOperation;
+import com.documentum.operations.IDfOperationError;
+
+public class ImportDocc {
+
+	public static void main(String[] args) throws Exception {
+		String username = "mspsrikt";
+		String password = "Otsuka123";
+		String repoName = "epictest";
+		String destFldrId = "0b009c54803afaf4";
+
+		try {
+			IDfSessionManager sessMgr = createSessionManager();
+			addIdentity(sessMgr, username, password, repoName);
+			importFiles(sessMgr, repoName, destFldrId);
+		} catch (DfException ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	private static void importFiles(IDfSessionManager sessMgr, String repoName,
+			String destFldrId) throws DfException, IOException {
+		IDfSession sess = null;
+		sess = sessMgr.getSession(repoName);
+		IDfDocument doc = null;
+		List<String> file_id = new ArrayList<String>();
+		HashMap<String, String> hm = new HashMap<String, String>();
+		String doc_name;
+
+		try {
+			IDfClientX clientX = new DfClientX();
+			IDfImportOperation impOper = clientX.getImportOperation();
+			IDfId destId = new DfId(destFldrId);
+			ArrayList arrObjId = null;
+			IDfQuery query = null;
+			String sQuery = null;
+			IDfCollection colDQL = null;
+			HashMap<String, String> allDocDMS = new HashMap<String, String>();
+			HashMap allDocFS = new HashMap();
+			HashMap docExist = new HashMap();
+			HashMap noDoc = new HashMap();
+
+			// Get list of files from the docbase folder path//
+			arrObjId = new ArrayList();
+			query = new DfQuery();
+			sQuery = "SELECT r_object_id FROM dm_document WHERE FOLDER('/Users/FDA',descend) AND i_latest_flag = 1";
+			query.setDQL(sQuery);
+			colDQL = query.execute(sess, IDfQuery.DF_EXEC_QUERY);
+			if (colDQL != null) {
+				while (colDQL.next()) {
+					arrObjId.add((colDQL.getString("r_object_id").trim()));
+				}
+			}
+			colDQL.close();
+
+			Iterator itrObj = arrObjId.iterator();
+			allDocDMS = new HashMap();
+			allDocFS = new HashMap();
+
+			while (itrObj.hasNext()) {
+				String Object_Id = (String) itrObj.next();
+				IDfSysObject Object = (IDfSysObject) sess.getObject(new DfId(Object_Id));
+				String Object_Name = Object.getObjectName();
+				allDocDMS.put(Object_Id, Object_Name);
+				System.out.println("Documents in Docbase " + Object_Id + " "
+						+ Object_Name);
+			}
+			String path = "C:\\FDA\\files\\";
+			/*
+			 * //Get List of files from the system local disk path// Random ran
+			 * = new Random(); StringBuilder sb = new StringBuilder(); String
+			 * random; String path = "C:\\FDA\\files\\"; File[] files = new
+			 * File(path).listFiles(); //If this pathname does not denote a
+			 * directory, then listFiles() returns null for (File file : files)
+			 * { if (file.isFile()) { sb.append(ran.nextInt(6)+5); random =
+			 * sb.toString(); allDocFS.put(random,file.getName());
+			 * System.out.println("Documents in local disk "+ random
+			 * +" "+file.getName());// } }
+			 */
+			//Get List of files from the system local disk path	
+			BufferedReader br = new BufferedReader(new FileReader(
+					"C:\\FDA\\files\\list_of_downloaded_file_details.txt"));
+			String line;
+			while ((line = br.readLine()) != null) {
+				String str[] = line.split(",");
+				allDocFS.put(str[0].trim(), str[1].trim());
+				System.out.println("Documents in local disk " + str[0] + " "
+						+ str[1]);//
+			}
+			br.close();
+
+			// Compares
+			int counter = 0;
+			docExist = new HashMap();
+			noDoc = new HashMap();
+			Set<String> keysDMS = allDocDMS.keySet();
+			Set<String> keysFS = allDocFS.keySet();
+
+			goback: for (String keyF : keysFS) {
+				for (String keyD : keysDMS) {
+					System.out.println(allDocFS.get(keyF) + " "
+							+ allDocDMS.get(keyD));
+
+					// Match found, call checkout-in
+					if (allDocFS.get(keyF).toString().trim().equals(
+							allDocDMS.get(keyD).toString().trim())) {
+						docExist.put(keyD, allDocDMS.get(keyD).toString() + "$" + keyF); // hashMap
+						System.out.println("compare match " + keyD + " "
+								+ allDocDMS.get(keyD).toString() + "$" + keyF);//
+						counter = 0;
+						// break goback;
+						continue goback;
+					}
+					// No Match found, call Import
+					if (!(allDocFS.get(keyF).toString().trim().equals(allDocDMS
+							.get(keyD).toString().trim()))) {
+						counter = counter + 1;
+					}
+					if (counter == keysDMS.size()) {
+						noDoc.put(keyF, allDocFS.get(keyF).toString()); // hashMap
+						System.out.println("compare no match " + keyF + " "
+								+ allDocFS.get(keyF).toString());//
+					}
+				}
+			}
+
+			// checkout and checkin
+			Set<String> keysExist = docExist.keySet();
+			File fC;
+			for (String KeyE : keysExist) {
+				String str = docExist.get(KeyE).toString();
+				String Nam_Title[] = str.split("\\$");
+				String filepath = "C:\\FDA\\files\\" + Nam_Title[0].trim();
+				fC = new File(filepath);
+				if (fC.exists()) {
+					IDfDocument dfDoc = (IDfDocument) sess.getObject(new DfId(
+							KeyE));
+
+					// check-out the document
+					dfDoc.checkout();
+
+					// check-in the document
+					dfDoc.setFile(filepath);
+					dfDoc.setTitle(Nam_Title[1].trim());
+					IDfVersionPolicy vp = dfDoc.getVersionPolicy();
+
+					// checkin as next major version. (e.g. 1.0 => 2.0)
+					IDfId dfnewid = dfDoc.checkin(false, vp.getNextMajorLabel()
+							+ ",CURRENT");
+				} else {
+					System.out.println(filepath + " does not exist!");
+				}
+			}
+
+			// Import
+			Set<String> keysNo = noDoc.keySet();
+
+			File fI;
+			for (String KeyN : keysNo) {
+				String docpath = "C:\\FDA\\files\\" + noDoc.get(KeyN);
+				fI = new File(docpath);
+				if (fI.exists()) {
+					IDfFile localFile = clientX.getFile(docpath);
+					IDfImportNode impNode = (IDfImportNode) impOper
+							.add(localFile);
+					impNode.setDestinationFolderId(destId);
+					impNode.setDocbaseObjectType("dm_document");
+					impNode.setNewObjectName(noDoc.get(KeyN).toString());
+
+				} else {
+					System.out.println(docpath + " path does not exist!");
+				}
+			}
+
+			// sess = sessMgr.getSession(repoName);
+			impOper.setSession(sess);
+
+			if (impOper.execute()) {
+				IDfList newObjLst = impOper.getNewObjects();
+				int i = 0;
+
+				goup: while (i < newObjLst.getCount()) {
+					for (String KeyN : keysNo) {
+						IDfDocument newObj = (IDfDocument) newObjLst.get(i);
+						if (noDoc.get(KeyN).equals(newObj.getObjectName())) {
+							newObj.setString("title", KeyN);
+							newObj.save();
+							System.out.println("Set Title: "
+									+ newObj.getObjectName());
+							i++;
+							continue goup;
+						}
+					}
+					i++;
+				}
+			} else {
+				//System.out.println("Import Operation Failed");
+				IDfList errList = impOper.getErrors();
+				for (int i = 0; i < errList.getCount(); i++) {
+					IDfOperationError err = (IDfOperationError) errList.get(i);
+					System.out.println(err.getMessage());
+				}
+			}
+
+		} finally {
+			if (sess != null) {
+				sessMgr.release(sess);
+			}
+		}
+
+	}
+
+	private static IDfSessionManager createSessionManager() throws DfException {
+		IDfClientX clientX = new DfClientX();
+		IDfClient localClient = clientX.getLocalClient();
+		IDfSessionManager sessMgr = localClient.newSessionManager();
+		return sessMgr;
+	}
+
+	private static void addIdentity(IDfSessionManager sm, String username,
+			String password, String repoName) throws DfException {
+		IDfClientX clientX = new DfClientX();
+
+		IDfLoginInfo li = clientX.getLoginInfo();
+		li.setUser(username);
+		li.setPassword(password);
+
+		// check if session manager already has an identity.
+		// if yes, remove it.
+		if (sm.hasIdentity(repoName)) {
+			sm.clearIdentity(repoName);
+		}
+
+		sm.setIdentity(repoName, li);
+	}
+
+}
