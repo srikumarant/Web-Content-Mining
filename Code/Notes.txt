@@ -1,0 +1,24 @@
+http://www.fda.gov/Drugs/NewsEvents/ucm130958.htm
+
+Module - 1:
+
+1. Navigate to News and Events Page and further navifate to sub pages
+2. Write  upates to the text file (date_news.txt)
+3. Download new PDFs + their titles
+4. Store downloaded PDF to a temp location and update details, time stamp in text file
+5. Log all the events and skip if there are any errors (date_logfile.txt) 
+
+
+Module - 2: 
+
+1. Trim unwanted text & symbol from document name
+2. search if the document (document number) is already exists or not
+3. If not exist, Import to a location with the help of title as document unit
+4. If exist, version and checkin
+5. Save
+6. Update import status log (date_import.txt) 
+
+Module - 3: 
+
+Once all the above done, email i) date_news.txt, ii) date_logfile.txt iii)TL_file.txt iv)date_import.txt
+
