@@ -1,0 +1,97 @@
+2015.03.08 20:02:11 -  INFO [MainET.java:62]: ]]]]]]]]]]]]]]]]]]]]********************[[[[[[[[[[[[[[[[[[[
+2015.03.08 20:02:11 -  INFO [MainET.java:63]: Title:: News & Events > What's New Related to Drugs
+2015.03.08 20:02:11 -  INFO [MainET.java:66]: http://www.fda.gov/Drugs/NewsEvents/ucm130958.htm
+2015.03.08 20:02:11 -  INFO [DateValidator.java:50]: Today Date:March 08, 2015
+2015.03.08 20:02:11 -  INFO [DateValidator.java:61]: Last Updated Date:March 06, 2015
+2015.03.08 20:02:11 -  INFO [DateValidator.java:68]: Latest News Date:March 6, 2015
+2015.03.08 20:02:11 -  INFO [DateValidator.java:89]: System Date and Last Updated Date NOT MATCHED!!
+2015.03.08 20:02:11 -  WARN [MainET.java:75]: -->DateValidator has been overridden<--
+2015.03.08 20:02:12 -  INFO [RetrieveURL.java:73]: No. of News and Events found on March 6, 2015: 9
+2015.03.08 20:02:12 -  INFO [RetrieveURL.java:81]: 1 - Drug Firm Annual Registration Status (http://www.accessdata.fda.gov/scripts/cder/drls/default.cfm)
+2015.03.08 20:02:12 -  INFO [RetrieveURL.java:81]: 2 - Drug Firm Annual Registration Status Download File (http://www.fda.gov/Drugs/InformationOnDrugs/ucm135778.htm)
+2015.03.08 20:02:12 -  INFO [RetrieveURL.java:81]: 3 - Drugs@FDA Data Files (http://www.fda.gov/Drugs/InformationOnDrugs/ucm079750.htm)
+2015.03.08 20:02:12 -  INFO [RetrieveURL.java:81]: 4 - FDA expands approved use of Opdivo (nivolumab) to treat lung cancer (http://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm436534.htm)
+2015.03.08 20:02:12 -  INFO [RetrieveURL.java:81]: 5 - FDA Drug Shortages (http://www.accessdata.fda.gov/scripts/drugshortages/default.cfm)
+2015.03.08 20:02:13 -  INFO [RetrieveURL.java:81]: 6 - FDA launches drug shortages mobile app (http://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm436481.htm)
+2015.03.08 20:02:13 -  INFO [RetrieveURL.java:81]: 7 - National Drug Code Directory (http://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm)
+2015.03.08 20:02:13 -  INFO [RetrieveURL.java:81]: 8 - Clinical Trial Imaging Endpoint Process Standards (PDF - 675KB) (http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM268555.pdf)
+2015.03.08 20:02:13 -  INFO [RetrieveURL.java:81]: 9 - Piperacillin and Tazobactam (Zosyn) Injection (http://www.accessdata.fda.gov/scripts/drugshortages/dsp_ActiveIngredientDetails.cfm?AI=Piperacillin%20and%20Tazobactam%20%28Zosyn%29%20Injection&st=c&tab=tabs-4)
+2015.03.08 20:02:13 -  INFO [RetrieveURL.java:128]: | | Drug Firm Annual Registration Status | |
+2015.03.08 20:02:21 -  INFO [RetrieveURL.java:139]: Title:: Drug Establishments Current Registration Site
+2015.03.08 20:02:26 -  INFO [RetrieveURL.java:151]: Guidance for Industry: Providing Regulatory Submissions in Electronic Format -Drug Establishment Registration and Drug Listing
+2015.03.08 20:02:26 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+2015.03.08 20:02:30 -  INFO [RetrieveURL.java:128]: | | Drug Firm Annual Registration Status Download File | |
+2015.03.08 20:02:36 -  INFO [RetrieveURL.java:139]: Title:: Drug Approvals and Databases > Drug Establishments Current Registration Site
+2015.03.08 20:02:40 -  INFO [RetrieveURL.java:151]: Drug Establishment Annual Registration Status Download File (ZIP - 365KB)
+2015.03.08 20:02:40 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+2015.03.08 20:02:47 -  INFO [RetrieveURL.java:128]: | | Drugs@FDA Data Files | |
+2015.03.08 20:02:50 -  INFO [RetrieveURL.java:139]: Title:: Drug Approvals and Databases > Drugs@FDA Data Files
+2015.03.08 20:02:54 -  INFO [RetrieveURL.java:151]: Drugs@FDA Download File (ZIP - 1.7MB)
+2015.03.08 20:02:54 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM054599.zip
+2015.03.08 20:03:00 -  INFO [RetrieveURL.java:128]: | | FDA expands approved use of Opdivo (nivolumab) to treat lung cancer | |
+2015.03.08 20:03:06 -  INFO [RetrieveURL.java:139]: Title:: Press Announcements > FDA expands approved use of Opdivo to treat lung cancer
+2015.03.08 20:03:16 -  WARN [RetrieveURL.java:175]: No PDF or ZIP found!
+2015.03.08 20:03:16 -  INFO [RetrieveURL.java:128]: | | FDA Drug Shortages | |
+2015.03.08 20:03:26 -  INFO [RetrieveURL.java:139]: Title:: FDA Drug Shortages
+2015.03.08 20:04:37 -  WARN [RetrieveURL.java:175]: No PDF or ZIP found!
+2015.03.08 20:04:38 -  INFO [RetrieveURL.java:128]: | | FDA launches drug shortages mobile app | |
+2015.03.08 20:04:42 -  INFO [RetrieveURL.java:139]: Title:: Press Announcements > FDA launches drug shortages mobile app
+2015.03.08 20:04:44 -  INFO [RetrieveURL.java:151]: Strategic Plan for Preventing and Mitigating Drug Shortages
+2015.03.08 20:04:45 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/DrugSafety/DrugShortages/UCM372566.pdf
+2015.03.08 20:04:46 -  INFO [RetrieveURL.java:151]: FDA Strategic Plan for Preventing and Mitigating Drug Shortages
+2015.03.08 20:04:46 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/DrugSafety/DrugShortages/UCM372566.pdf
+2015.03.08 20:04:52 -  INFO [RetrieveURL.java:128]: | | National Drug Code Directory | |
+2015.03.08 20:04:56 -  INFO [RetrieveURL.java:139]: Title:: Drug Approvals and Databases > National Drug Code Directory
+2015.03.08 20:04:59 -  INFO [RetrieveURL.java:151]: NDC Database File (Zip Format) (ZIP - 17.1MB)
+2015.03.08 20:04:59 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+2015.03.08 20:04:59 -  INFO [RetrieveURL.java:151]: Old NDC Database File (Zip Format) (ZIP - 4.8MB)
+2015.03.08 20:04:59 -  INFO [RetrieveURL.java:152]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+2015.03.08 20:05:07 -  INFO [RetrieveURL.java:100]: | | Clinical Trial Imaging Endpoint Process Standards (PDF - 675KB) | |
+2015.03.08 20:05:07 -  INFO [RetrieveURL.java:101]: Title:: News & Events > What's New Related to Drugs
+2015.03.08 20:05:07 -  INFO [RetrieveURL.java:102]: Clinical Trial Imaging Endpoint Process Standards (PDF - 675KB)
+2015.03.08 20:05:07 -  INFO [RetrieveURL.java:103]: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM268555.pdf
+2015.03.08 20:05:07 -  INFO [RetrieveURL.java:128]: | | Piperacillin and Tazobactam (Zosyn) Injection | |
+2015.03.08 20:05:11 -  INFO [RetrieveURL.java:139]: Title:: FDA Drug Shortages
+2015.03.08 20:05:24 -  WARN [RetrieveURL.java:175]: No PDF or ZIP found!
+2015.03.08 20:05:24 -  INFO [RetrieveURL.java:188]: Total No. of PDF or ZIP files found: 8
+2015.03.08 20:05:24 -  INFO [RetrieveURL.java:195]: Path to save files:D:\Sri Kumaran Cabinet\BITS WILP\Fourth Semester\My Project\CODE\workspace_web_mining\File Download\
+2015.03.08 20:05:24 -  INFO [RetrieveURL.java:202]:  - 1 - 
+2015.03.08 20:05:24 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+2015.03.08 20:05:27 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:17:32 -  INFO [Downloader.java:76]: Downloded 5045206 bytes. Content-Type: application/zip
+2015.03.08 20:17:32 -  INFO [RetrieveURL.java:202]:  - 2 - 
+2015.03.08 20:17:32 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/DrugSafety/DrugShortages/UCM372566.pdf
+2015.03.08 20:17:34 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:18:15 -  INFO [Downloader.java:76]: Downloded 389637 bytes. Content-Type: Application/pdf
+2015.03.08 20:18:15 -  INFO [RetrieveURL.java:202]:  - 3 - 
+2015.03.08 20:18:15 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM268555.pdf
+2015.03.08 20:18:18 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:19:57 -  INFO [Downloader.java:76]: Downloded 690890 bytes. Content-Type: Application/pdf
+2015.03.08 20:19:57 -  INFO [RetrieveURL.java:202]:  - 4 - 
+2015.03.08 20:19:57 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM054599.zip
+2015.03.08 20:20:00 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:26:12 -  INFO [Downloader.java:76]: Downloded 1759802 bytes. Content-Type: application/zip
+2015.03.08 20:26:12 -  INFO [RetrieveURL.java:202]:  - 5 - 
+2015.03.08 20:26:13 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+2015.03.08 20:26:16 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:38:49 - ERROR [Downloader.java:91]: Exception: 
+org.apache.http.ConnectionClosedException: Premature end of Content-Length delimited message body (expected: 17968154; received: 6867032
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:180)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:150)
+	at com.fda.fdaNewsPack.Downloader.downloadFile(Downloader.java:70)
+	at com.fda.fdaNewsPack.RetrieveURL.retrieveURL(RetrieveURL.java:230)
+	at com.fda.init.MainET.main(MainET.java:79)
+2015.03.08 20:38:49 -  INFO [RetrieveURL.java:202]:  - 6 - 
+2015.03.08 20:38:49 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+2015.03.08 20:38:51 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:39:33 -  INFO [Downloader.java:76]: Downloded 374227 bytes. Content-Type: application/zip
+2015.03.08 20:39:33 -  INFO [RetrieveURL.java:202]:  - 7 - 
+2015.03.08 20:39:33 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+2015.03.08 20:39:34 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.08 20:39:43 -  INFO [Downloader.java:76]: Downloded 105812 bytes. Content-Type: Application/pdf
+2015.03.08 20:39:43 -  WARN [RetrieveURL.java:239]: DUPLICATE ENTRIES has been EXCLUDED by hash map
+2015.03.08 20:39:43 -  INFO [RetrieveURL.java:240]: Total No. of PDF or ZIP files downloaded: 6
+2015.03.08 20:39:43 -  INFO [MainET.java:85]: Execution started on: Sun Mar 08 20:01:51 IST 2015
+2015.03.08 20:39:43 -  INFO [MainET.java:88]: Execution ended on: Sun Mar 08 20:39:43 IST 2015
+2015.03.08 20:39:45 -  INFO [MainET.java:102]: --COMPLETED--

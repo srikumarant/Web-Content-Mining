@@ -1,0 +1,81 @@
+2015.03.15 23:51:44 -  INFO [MainET.java:62]: ]]]]]]]]]]]]]]]]]]]]********************[[[[[[[[[[[[[[[[[[[
+2015.03.15 23:51:44 -  INFO [MainET.java:63]: Title:: News & Events > What's New Related to Drugs
+2015.03.15 23:51:44 -  INFO [MainET.java:66]: http://www.fda.gov/Drugs/NewsEvents/ucm130958.htm
+2015.03.15 23:51:44 -  INFO [DateValidator.java:50]: Today Date:March 15, 2015
+2015.03.15 23:51:44 -  INFO [DateValidator.java:61]: Last Updated Date:March 13, 2015
+2015.03.15 23:51:44 -  INFO [DateValidator.java:68]: Latest News Date:March 13, 2015
+2015.03.15 23:51:44 -  INFO [DateValidator.java:89]: System Date and Last Updated Date NOT MATCHED!!
+2015.03.15 23:51:44 -  WARN [MainET.java:75]: -->DateValidator has been overridden<--
+2015.03.15 23:51:45 -  INFO [RetrieveURL.java:73]: No. of News and Events found on March 13, 2015: 7
+2015.03.15 23:51:45 -  INFO [RetrieveURL.java:81]: 1 - Drug Firm Annual Registration Status (http://www.accessdata.fda.gov/scripts/cder/drls/default.cfm)
+2015.03.15 23:51:45 -  INFO [RetrieveURL.java:81]: 2 - Drug Firm Annual Registration Status Download File (http://www.fda.gov/Drugs/InformationOnDrugs/ucm135778.htm)
+2015.03.15 23:51:46 -  INFO [RetrieveURL.java:81]: 3 - National Drug Code Directory (http://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm)
+2015.03.15 23:51:46 -  INFO [RetrieveURL.java:81]: 4 - February 2015: Additions and Deletions to the Drug Product List (PDF - 127KB) (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM438105.pdf)
+2015.03.15 23:51:46 -  INFO [RetrieveURL.java:81]: 5 -  (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf)
+2015.03.15 23:51:46 -  INFO [RetrieveURL.java:81]: 6 - Orange Book Current Cumulative Supplement (PDF - 288KB) (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf)
+2015.03.15 23:51:47 -  INFO [RetrieveURL.java:81]: 7 - Orange Book Data Files (compressed) (ZIP - 592KB) (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM163762.zip)
+2015.03.15 23:51:47 -  INFO [RetrieveURL.java:128]: | | Drug Firm Annual Registration Status | |
+2015.03.15 23:51:56 -  INFO [RetrieveURL.java:139]: Title:: Drug Establishments Current Registration Site
+2015.03.15 23:52:01 -  INFO [RetrieveURL.java:152]: Guidance for Industry: Providing Regulatory Submissions in Electronic Format -Drug Establishment Registration and Drug Listing
+2015.03.15 23:52:01 -  INFO [RetrieveURL.java:153]: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+2015.03.15 23:52:07 -  INFO [RetrieveURL.java:128]: | | Drug Firm Annual Registration Status Download File | |
+2015.03.15 23:52:14 -  INFO [RetrieveURL.java:139]: Title:: Drug Approvals and Databases > Drug Establishments Current Registration Site
+2015.03.15 23:52:18 -  INFO [RetrieveURL.java:152]: Drug Establishment Annual Registration Status Download File (ZIP - 367KB)
+2015.03.15 23:52:18 -  INFO [RetrieveURL.java:153]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+2015.03.15 23:52:26 -  INFO [RetrieveURL.java:128]: | | National Drug Code Directory | |
+2015.03.15 23:52:30 -  INFO [RetrieveURL.java:139]: Title:: Drug Approvals and Databases > National Drug Code Directory
+2015.03.15 23:52:34 -  INFO [RetrieveURL.java:152]: NDC Database File (Zip Format) (ZIP - 17.2MB)
+2015.03.15 23:52:34 -  INFO [RetrieveURL.java:153]: http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+2015.03.15 23:52:35 -  INFO [RetrieveURL.java:152]: Old NDC Database File (Zip Format) (ZIP - 4.8MB)
+2015.03.15 23:52:35 -  INFO [RetrieveURL.java:153]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:100]: | | February 2015: Additions and Deletions to the Drug Product List (PDF - 127KB) | |
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:101]: Title:: News & Events > What's New Related to Drugs
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:102]: February 2015: Additions and Deletions to the Drug Product List (PDF - 127KB)
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:103]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM438105.pdf
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:100]: | |  | |
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:101]: Title:: News & Events > What's New Related to Drugs
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:102]: 
+2015.03.15 23:52:44 -  INFO [RetrieveURL.java:103]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:100]: | | Orange Book Current Cumulative Supplement (PDF - 288KB) | |
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:101]: Title:: News & Events > What's New Related to Drugs
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:102]: Orange Book Current Cumulative Supplement (PDF - 288KB)
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:103]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:100]: | | Orange Book Data Files (compressed) (ZIP - 592KB) | |
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:101]: Title:: News & Events > What's New Related to Drugs
+2015.03.15 23:52:45 -  INFO [RetrieveURL.java:102]: Orange Book Data Files (compressed) (ZIP - 592KB)
+2015.03.15 23:52:46 -  INFO [RetrieveURL.java:103]: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM163762.zip
+2015.03.15 23:52:46 -  INFO [RetrieveURL.java:189]: Total No. of PDF or ZIP files found: 8
+2015.03.15 23:52:46 -  INFO [RetrieveURL.java:196]: Path to save files:D:\Sri Kumaran Cabinet\BITS WILP\Fourth Semester\My Project\CODE\workspace_web_mining\File Download\
+2015.03.15 23:52:46 -  INFO [RetrieveURL.java:203]:  - 1 - 
+2015.03.15 23:52:46 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+2015.03.15 23:52:47 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.15 23:54:19 -  INFO [Downloader.java:76]: Downloded 5045206 bytes. Content-Type: application/zip
+2015.03.15 23:54:19 -  INFO [RetrieveURL.java:203]:  - 2 - 
+2015.03.15 23:54:19 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM438105.pdf
+2015.03.15 23:54:20 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.15 23:54:22 -  INFO [Downloader.java:76]: Downloded 130154 bytes. Content-Type: Application/pdf
+2015.03.15 23:54:22 -  INFO [RetrieveURL.java:203]:  - 3 - 
+2015.03.15 23:54:22 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+2015.03.15 23:54:24 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.16 00:02:11 -  INFO [Downloader.java:76]: Downloded 18040296 bytes. Content-Type: application/zip
+2015.03.16 00:02:11 -  INFO [RetrieveURL.java:203]:  - 4 - 
+2015.03.16 00:02:11 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+2015.03.16 00:02:13 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.16 00:02:23 -  INFO [Downloader.java:76]: Downloded 375566 bytes. Content-Type: application/zip
+2015.03.16 00:02:23 -  INFO [RetrieveURL.java:203]:  - 5 - 
+2015.03.16 00:02:23 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+2015.03.16 00:02:24 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.16 00:02:27 -  INFO [Downloader.java:76]: Downloded 105812 bytes. Content-Type: Application/pdf
+2015.03.16 00:02:27 -  INFO [RetrieveURL.java:203]:  - 6 - 
+2015.03.16 00:02:27 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM163762.zip
+2015.03.16 00:02:28 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.16 00:02:42 -  INFO [Downloader.java:76]: Downloded 608524 bytes. Content-Type: application/zip
+2015.03.16 00:02:42 -  INFO [RetrieveURL.java:203]:  - 7 - 
+2015.03.16 00:02:42 -  INFO [Downloader.java:51]: Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf
+2015.03.16 00:02:43 -  INFO [Downloader.java:56]: HTTP/1.1 200 OK
+2015.03.16 00:02:54 -  INFO [Downloader.java:76]: Downloded 438246 bytes. Content-Type: Application/pdf
+2015.03.16 00:02:54 -  WARN [RetrieveURL.java:240]: DUPLICATE ENTRIES has been EXCLUDED by hash map
+2015.03.16 00:02:54 -  INFO [RetrieveURL.java:241]: Total No. of PDF or ZIP files downloaded: 7
+2015.03.16 00:02:54 -  INFO [MainET.java:85]: Execution started on: Sun Mar 15 23:51:22 IST 2015
+2015.03.16 00:02:54 -  INFO [MainET.java:88]: Execution ended on: Mon Mar 16 00:02:54 IST 2015
+2015.03.16 00:02:56 -  INFO [MainET.java:102]: --COMPLETED--

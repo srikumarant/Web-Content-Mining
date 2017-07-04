@@ -1,0 +1,85 @@
+]]]]]]]]]]]]]]]]]]]]********************[[[[[[[[[[[[[[[[[[[
+Title:: News & Events > What's New Related to Drugs
+http://www.fda.gov/Drugs/NewsEvents/ucm130958.htm
+Today Date:April 12, 2015
+Last Updated Date:April 10, 2015
+Latest News Date:April 10, 2015
+System Date and Last Updated Date NOT MATCHED!!
+-->DateValidator has been overridden<--
+No. of News and Events found on April 10, 2015: 7
+1 - Baxter Initiates Voluntary Recall of Select Lots of IV Solutions Due to the Potential Presence of Particulate Matter (http://www.fda.gov/Safety/Recalls/ucm442074.htm)
+2 - Drug Firm Annual Registration Status (http://www.accessdata.fda.gov/scripts/cder/drls/default.cfm)
+3 - Drug Firm Annual Registration Status Download File (http://www.fda.gov/Drugs/InformationOnDrugs/ucm135778.htm)
+4 - Drug Shortages Infographic (http://www.fda.gov/Drugs/DrugSafety/DrugShortages/ucm441579.htm)
+5 - FDA continues to warn consumers not to use Eu Yan Sang (Hong Kong) Ltd.’s “Bo Ying compound" (http://www.fda.gov/Drugs/DrugSafety/ucm416220.htm)
+6 - Meeting Information (http://www.fda.gov/Drugs/DevelopmentApprovalProcess/SmallBusinessAssistance/ucm440627.htm)
+7 - National Drug Code Directory (http://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm)
+********************************************************************
+| | Baxter Initiates Voluntary Recall of Select Lots of IV Solutions Due to the Potential Presence of Particulate Matter | |
+Title:: Recalls, Market Withdrawals, & Safety Alerts > Baxter Initiates Voluntary Recall of Select Lots of IV Solutions Due to the Potential Presence of Particulate Matter
+No PDF or ZIP found!
+--------------------------------------------------------------------
+| | Drug Firm Annual Registration Status | |
+Title:: Drug Establishments Current Registration Site
+Guidance for Industry: Providing Regulatory Submissions in Electronic Format -Drug Establishment Registration and Drug Listing
+http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+--------------------------------------------------------------------
+| | Drug Firm Annual Registration Status Download File | |
+Title:: Drug Approvals and Databases > Drug Establishments Current Registration Site
+Drug Establishment Annual Registration Status Download File (ZIP - 372KB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+--------------------------------------------------------------------
+| | Drug Shortages Infographic | |
+Title:: Drug Shortages > Drug Shortages Infographic
+Drug Shortages Infographic
+http://www.fda.gov/downloads/Drugs/DrugSafety/DrugShortages/UCM441583.pdf
+--------------------------------------------------------------------
+| | FDA continues to warn consumers not to use Eu Yan Sang (Hong Kong) Ltd.’s “Bo Ying compound" | |
+Title:: FDA continues to warn consumers not to use Eu Yan Sang (Hong Kong) Ltd.’s “Bo Ying compound"
+Download form
+http://www.fda.gov/downloads/AboutFDA/ReportsManualsForms/Forms/UCM163919.pdf
+--------------------------------------------------------------------
+| | Meeting Information | |
+Title:: CDER Small Business and Industry Assistance > FDA Small Business Regulatory Education for Industry (REdI) Conference Spring 2015
+No PDF or ZIP found!
+--------------------------------------------------------------------
+| | National Drug Code Directory | |
+Title:: Drug Approvals and Databases > National Drug Code Directory
+NDC Database File (Zip Format) (ZIP - 17.4MB)
+http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+Old NDC Database File (Zip Format) (ZIP - 4.8MB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+--------------------------------------------------------------------
+Total No. of PDF or ZIP files found: 6
+Path to save files:D:\Sri Kumaran Cabinet\BITS WILP\Fourth Semester\My Project\CODE\workspace_web_mining\File Download\
+
+- 1 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+HTTP/1.1 504 Gateway Time-out
+- 2 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+HTTP/1.1 200 OK
+Downloded 105812 bytes. Content-Type: Application/pdf
+- 3 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+HTTP/1.1 200 OK
+Downloded 380558 bytes. Content-Type: application/zip
+- 4 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/DrugSafety/DrugShortages/UCM441583.pdf
+HTTP/1.1 200 OK
+Downloded 257032 bytes. Content-Type: Application/pdf
+- 5 - 
+Downloading file from: http://www.fda.gov/downloads/AboutFDA/ReportsManualsForms/Forms/UCM163919.pdf
+HTTP/1.1 200 OK
+Downloded 1677316 bytes. Content-Type: Application/pdf
+- 6 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+HTTP/1.1 200 OK
+Downloded 18247368 bytes. Content-Type: application/zip
+
+DUPLICATE ENTRIES has been EXCLUDED by hash map
+Total No. of PDF or ZIP files downloaded: 5
+--------------------------------------------------------------------
+Execution started on: Sun Apr 12 23:23:30 IST 2015
+Execution ended on: Sun Apr 12 23:42:51 IST 2015
+--COMPLETED--

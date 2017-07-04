@@ -1,0 +1,92 @@
+]]]]]]]]]]]]]]]]]]]]********************[[[[[[[[[[[[[[[[[[[
+Title:: News & Events > What's New Related to Drugs
+http://www.fda.gov/Drugs/NewsEvents/ucm130958.htm
+Today Date:March 15, 2015
+Last Updated Date:March 13, 2015
+Latest News Date:March 13, 2015
+System Date and Last Updated Date NOT MATCHED!!
+-->DateValidator has been overridden<--
+No. of News and Events found on March 13, 2015: 7
+1 - Drug Firm Annual Registration Status (http://www.accessdata.fda.gov/scripts/cder/drls/default.cfm)
+2 - Drug Firm Annual Registration Status Download File (http://www.fda.gov/Drugs/InformationOnDrugs/ucm135778.htm)
+3 - National Drug Code Directory (http://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm)
+4 - February 2015: Additions and Deletions to the Drug Product List (PDF - 127KB) (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM438105.pdf)
+5 -  (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf)
+6 - Orange Book Current Cumulative Supplement (PDF - 288KB) (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf)
+7 - Orange Book Data Files (compressed) (ZIP - 592KB) (http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM163762.zip)
+********************************************************************
+| | Drug Firm Annual Registration Status | |
+Title:: Drug Establishments Current Registration Site
+Guidance for Industry: Providing Regulatory Submissions in Electronic Format -Drug Establishment Registration and Drug Listing
+http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+--------------------------------------------------------------------
+| | Drug Firm Annual Registration Status Download File | |
+Title:: Drug Approvals and Databases > Drug Establishments Current Registration Site
+Drug Establishment Annual Registration Status Download File (ZIP - 367KB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+--------------------------------------------------------------------
+| | National Drug Code Directory | |
+Title:: Drug Approvals and Databases > National Drug Code Directory
+NDC Database File (Zip Format) (ZIP - 17.2MB)
+http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+Old NDC Database File (Zip Format) (ZIP - 4.8MB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+--------------------------------------------------------------------
+| | February 2015: Additions and Deletions to the Drug Product List (PDF - 127KB) | |
+Title:: News & Events > What's New Related to Drugs
+February 2015: Additions and Deletions to the Drug Product List (PDF - 127KB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM438105.pdf
+--------------------------------------------------------------------
+| |  | |
+Title:: News & Events > What's New Related to Drugs
+
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf
+--------------------------------------------------------------------
+| | Orange Book Current Cumulative Supplement (PDF - 288KB) | |
+Title:: News & Events > What's New Related to Drugs
+Orange Book Current Cumulative Supplement (PDF - 288KB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf
+--------------------------------------------------------------------
+| | Orange Book Data Files (compressed) (ZIP - 592KB) | |
+Title:: News & Events > What's New Related to Drugs
+Orange Book Data Files (compressed) (ZIP - 592KB)
+http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM163762.zip
+--------------------------------------------------------------------
+Total No. of PDF or ZIP files found: 8
+Path to save files:D:\Sri Kumaran Cabinet\BITS WILP\Fourth Semester\My Project\CODE\workspace_web_mining\File Download\
+
+- 1 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM257244.zip
+HTTP/1.1 200 OK
+Downloded 5045206 bytes. Content-Type: application/zip
+- 2 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM438105.pdf
+HTTP/1.1 200 OK
+Downloded 130154 bytes. Content-Type: Application/pdf
+- 3 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip
+HTTP/1.1 200 OK
+Downloded 18040296 bytes. Content-Type: application/zip
+- 4 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM197817.zip
+HTTP/1.1 200 OK
+Downloded 375566 bytes. Content-Type: application/zip
+- 5 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/ucm072339.pdf
+HTTP/1.1 200 OK
+Downloded 105812 bytes. Content-Type: Application/pdf
+- 6 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM163762.zip
+HTTP/1.1 200 OK
+Downloded 608524 bytes. Content-Type: application/zip
+- 7 - 
+Downloading file from: http://www.fda.gov/downloads/Drugs/InformationOnDrugs/UCM086233.pdf
+HTTP/1.1 200 OK
+Downloded 438246 bytes. Content-Type: Application/pdf
+
+DUPLICATE ENTRIES has been EXCLUDED by hash map
+Total No. of PDF or ZIP files downloaded: 7
+--------------------------------------------------------------------
+Execution started on: Sun Mar 15 23:51:22 IST 2015
+Execution ended on: Mon Mar 16 00:02:54 IST 2015
+--COMPLETED--
